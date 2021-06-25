@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0.
 
 ## Creating new App
-   ng new AppName
+   run  ng new AppName in terminal in your desired folder as the result app will be generated
 
 ## Development server
 
