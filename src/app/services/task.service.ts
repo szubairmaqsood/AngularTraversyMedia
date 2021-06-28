@@ -9,10 +9,11 @@ import {HttpClient,HttpHeaders} from '@angular/common/http';
 })
 export class TaskService {
   private apiUrl = "http://localhost:5000/tasks"
-  constructor() { }
+  constructor(private http:HttpClient) { }
 
   getTasks():Observable<Task[]>{
-     const tasks = of(TASKS);
-     return tasks;
+     //const tasks = of(TASKS);
+    // return tasks;
+    return this.http.get<Task[]>(this.apiUrl);
   }
 }
