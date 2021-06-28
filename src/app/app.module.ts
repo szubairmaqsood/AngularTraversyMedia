@@ -9,6 +9,7 @@ import { HeaderComponent } from './component/header/header.component';
 import { ButtonComponent } from './component/button/button.component';
 import { TasksComponent } from './component/tasks/tasks.component';
 import { TaskItemComponent } from './component/task-item/task-item.component';
+import { AddTaskComponent } from './component/add-task/add-task.component';
 
 
 
@@ -19,6 +20,7 @@ import { TaskItemComponent } from './component/task-item/task-item.component';
     ButtonComponent,
     TasksComponent,
     TaskItemComponent,
+    AddTaskComponent,
    
   ],
   imports: [
